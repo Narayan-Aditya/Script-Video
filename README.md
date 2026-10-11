@@ -16,6 +16,10 @@ The speech track comes from one of two sources:
 
 The setup script installs everything else.
 
+## Install with a coding agent
+
+Give [`AGENT.md`](AGENT.md) to a coding agent, such as Claude Code, Codex, or Cursor, and ask it to follow the file. The agent checks your Mac, clones the project, runs the setup, and verifies the installation. When Homebrew is missing, the agent asks you to install it yourself, because the Homebrew installer needs your password.
+
 ## Install
 
 Open Terminal in this folder and run:
@@ -105,6 +109,7 @@ To change a setting, edit the matching line in `studio.sh`.
 
 | Path | Contents |
 |---|---|
+| `AGENT.md` | Setup instructions for a coding agent |
 | `setup.sh` | One-time installer |
 | `studio.sh` | Command-line interface for the pipeline |
 | `inputs/` | Your photo, voice sample, script, and the generated speech track |
